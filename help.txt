@@ -1,0 +1,48 @@
+The Buttons:
+
+	Help:
+	     Brings out this help screen.
+	
+	Quit:
+	     Stops the game and closes the window.
+	
+	Start:
+	     Loads the cards based on the users preferences in the checkboxes.
+	
+Red/Black Cards:
+	If the Red Cards box is checked when the start button is pressed,
+	the deck will contain red cards. If the Black Cards box is checked
+	when the start button is pressed, the deck will contain black cards.
+	If none are checked, the game will have black cards. If both are
+	checked, the game will have a full deck and have twice as much time
+	to memorize locations. (From 5 to 10 seconds)
+	
+How to Play:
+	Once you click which cards you want from the checkboxes, you click
+	start. This will load the cards face down. When you are ready to
+	start memorizing, click on any card for them all to be flipped over.
+	If you have half a deck, (At most one of the boxes checked) you will
+	have 5 seconds to memorize card locations, if it is a full deck you
+	will have 10 seconds. Once they are flipped back over, you click two
+	cards that you think match. A match is 2 cards of the same color and
+	having the same number. Once you flipped over 2 cards, you must then 
+	click on any card for them to be flipped back over or disappear if 
+	they were a match. The game is over when all the cards have been
+	matched.
+	
+Score:
+	If there is a mismatch, the highest valued card (10-King are worth 10)
+	of the mismatch will be added to the score. So if you pick an Ace and
+	a 5, the score will have 5 added to it. The object of the game is to
+	have the lowest score possible.
+	
+Free Tries:
+	A free try has the potential of keeping your score low. If a mismatch
+	is made, the next free try is made. If the free try is the lowest
+	card value, (or equal to the lowest card value) points will not be
+	added to the score. If the free try is higher than a card value in
+	the mismatch, it will be used and you will have score added. A free
+	try is gained by making matches. If you match a pair of 5's and a
+	pair of Jacks, your next free try will be 5, and once that is used
+	up, the value of Jack (10) is the next free try. If the next free try
+	value is 11, that means you do not have any current free tries.
